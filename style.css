@@ -1,0 +1,223 @@
+body {
+    margin: 0%;
+}
+
+.first-section {
+    background: url(images/computer-keyboards-wallpaper-preview.jpg);
+    background-size: cover;
+    margin: 0px;
+    margin-bottom: 100px;
+    padding: 2% 2%;
+}
+
+.get-started {
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 40px;
+    border-radius: 5px;  
+}
+
+.first-para {
+    padding: 0px 100px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.image {
+    padding: 0px 100px;
+}
+
+.a-link {
+    text-decoration: none;
+}
+
+.centerdiv {
+    height: 15vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.centerdiv a {
+    height: 50px;
+    width: 50px;
+    background-color: #ecf0f1;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 1px 2px .5px #95a5a6;
+    line-height: 60px;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.4);
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.education{
+    display: flex;
+}
+.education1 {
+    display: flex;
+}
+.education2 {
+    color: white;
+    display: flex;
+    float: right;
+    margin-left: 800px;
+}
+
+.education3 {
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.card-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 5px 50px;
+    box-shadow: 1px 2px 4px black;
+}
+
+.card:hover {
+    box-shadow: 6px 12px 10px #7f8c8d;
+}
+
+.img-style {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-desc {
+    padding: 10px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.container1 {
+    display: flex;
+    background: url(images/picture2.jfif);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.container1-1 {
+    width: 60%;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.container1-1-lower {
+    display: flex;
+}
+
+.container1-2 {
+    width: 40%;
+}
+
+.container1-2 input {
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    width: 80%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.container1-2 input[type=submit] {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.container1-2 input[placeholder] {
+    text-align: center;
+}
+
+.opinion {
+    display: flex;
+    margin: 0 auto;
+}
+
+.opinion1{
+    width: 40%;
+    padding: 5%;
+    margin: 2px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px black;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.apply {
+    background-color: #d63031;
+    padding: 20px 130px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+}
+
+.last-banner {
+    background: url(images/instructor.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: brown solid 2px;
+    border-radius: 10px;
+    margin: 10%;
+    padding: 8% 7%;
+}
+
+.position {
+    text-align: center;
+}
+
+.apply:hover {
+    background-color: white;
+    box-shadow: black 1px 2px 6px;        
+    color: black;
+}
+
+
+
